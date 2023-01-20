@@ -3,25 +3,28 @@
 ### [Assignment](assignment.md)
 
 ## Project/Goals
-(fill in your description and goals here)
+In this project, my main goal is to understand how different characteristics play a role in the approval or rejection of a loan application. 
 
 ## Hypothesis
-(fill in your hypothesis about which subset of applicants will be most likely to have their loan approved, and why. Give some examples of how you will test this hypothesis)
+I believe that urban or suburban applicants with high levels of total income will be more likely to be granted a loan. 
 
 ## EDA 
-(fill in what you discovered in your exploration of the dataset)
+Through modelling, I found that total applicant income bore alot of weight in predicting the status of the loan application while property are was not nearly as successful in correctly predicting the rejection/approval of an application. 
 
 
 ## Process
-(fill in what you did during EDA, cleaning, feature engineering, modeling, deployment, testing)
-### (your step 1)
-### (your step 2)
+
+1. Hypothesis Generation – understanding the problem better by brainstorming possible factors that can impact the outcome
+2. Data Exploration – looking at categorical and continuous feature summaries and making inferences about the data.
+3. Data Cleaning – imputing missing values in the data and checking for outliers
+4. Feature Engineering – modifying existing variables and creating new ones for analysis
+5. Model Building – making predictive models on the data
 
 ## Results/Demo
 (fill in your model's performance, details about the API you created, and (optional) a link to an live demo)
 
 ## Challanges 
-(discuss challenges you faced in the project)
+One major challenge that I faced was being able to deploy the model I developed onto the cloud and being able to access it through a browser. I was able to get it to post onto an http address but when running that address on the browser it was stuck on a loading cycle. 
 
 ## Future Goals
-(what would you do if you had more time? are there any potential issues/biases with your model/use case?)
+In the future, I would definitely spend a lot more time interacting with and workshopping different ways to deploy models like Postman, AWS, python, etc.
